@@ -25,7 +25,7 @@ programa
 			escreva("Você digitou: " + valores[i] + "\n")
 		}
 		
-		escreva("A maior poontuação foi: " + maior)
+		escreva("A maior pontuação foi: " + maior)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -33,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 363; 
+ * @POSICAO-CURSOR = 547; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -23,6 +23,16 @@ programa
 		}
 
 		
+		para(inteiro i = 0; i <= 1; i++){
+			escreva("\nMatriz m1["+i+"]: " + m1[i])
+		}
+
+
+		escreva("\n----------------")
+		para(inteiro i = 0; i <= 1; i++){
+			escreva("\nMatriz m2["+i+"]: " + m2[i])
+		}
+		
 		
 		
 	}
@@ -32,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 559; 
+ * @POSICAO-CURSOR = 673; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {m1, 17, 10, 2}-{m2, 18, 10, 2};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -28,14 +28,16 @@ programa
 
 
 			soma += valorDado[i]
+
+			se(valorDado[i] == maior){
+				maiorOcorrencia++
+			}
 			
 			se(valorDado[i] > maior){
 				maior = valorDado[i]
 				maiorOcorrencia = 1
 			}
-			se(valorDado[i] == maior){
-				maiorOcorrencia++
-			}
+
 			
 		}
 
@@ -56,9 +58,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 628; 
+ * @POSICAO-CURSOR = 855; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {valorDado, 17, 10, 9};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
