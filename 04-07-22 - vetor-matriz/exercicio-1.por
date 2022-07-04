@@ -13,12 +13,17 @@ programa
 		para(inteiro i = 0; i <= 4; i++){
 			escreva("Digite a pontuação da atividade: ")
 			leia(valores[i])
-			escreva("Você digitou: " + valores[i] + "\n")
+
 			se(valores[i] > maior){
 				maior = valores[i]
 			}
 		}
 
+		limpa()
+
+		para(inteiro i = 0; i <= 4; i++){
+			escreva("Você digitou: " + valores[i] + "\n")
+		}
 		
 		escreva("A maior poontuação foi: " + maior)
 	}
@@ -28,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 474; 
+ * @POSICAO-CURSOR = 363; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

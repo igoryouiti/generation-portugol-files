@@ -14,7 +14,7 @@ programa
 		real maior = 0
 		real soma = 0
 		real media
-		inteiro valorDado[6]
+		inteiro valorDado[10]
 		inteiro dSeis = 6
 		inteiro maiorOcorrencia = 0
 		inteiro numeroLancamentos = 10
@@ -56,7 +56,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 496; 
+ * @POSICAO-CURSOR = 628; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
